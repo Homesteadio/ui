@@ -1,61 +1,43 @@
-<img src="https://ui.decentraland.org/decentraland_256x256.png" height="128" width="128" />
+Originally forked from `Decentrland` (Apache 2 license). Base is `semantic-ui-react` with themed overlay and custom components created by Decentraland.
 
-# Decentraland UI [![CircleCI](https://circleci.com/gh/decentraland/ui.svg?style=svg)](https://circleci.com/gh/decentraland/ui) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
-This is basically `semantic-ui-react` themed with Decentrland's look & feel + some of our own components
-
-See: [ui.decentraland.org](https://ui.decentraland.org)
+View original story book: [ui.decentraland.org](https://ui.decentraland.org)
 
 ## Usage
 
 Install it:
 
 ```bash
-npm install --save decentraland-ui
+npm install --save homesteadio-ui
 ```
 
-Import Decentraland UI's styles in your App's entry point
+Import Homestead UI's styles in your App's entry point
 
 ```jsx
-import 'decentraland-ui/lib/styles.css'
+import 'homesteadio-ui/lib/styles.css'
 ```
 
-Now you can use Decentraland UI's components
+Now you can use Homestead UI's components
 
 ```jsx
 import React from 'react'
-import { Button } from 'decentraland-ui'
+import { Button } from 'homesteadio-ui'
 
 export class MyApp extends React.Component {
   render() {
-    return <Button>Sabe</Button>
+    return <Button>Good Day</Button>
   }
 }
 ```
 
-### Without React
-
-You can also use `decentraland-ui` as a CSS framework just by adding this tag in your `<head>`:
-
-```html
-<link href="https://ui.decentraland.org/styles.css" rel="stylesheet" />
-```
-
-And then using [Semantic UI](https://semantic-ui.com/) classes like this:
-
-```html
-<button class="ui button">Sabe</button>
-```
-
-🏌
 
 ## Alternative themes
 
-You can use one of our alternative themes by importing in after Decentraland UI's styles, like this:
+You can use one of our alternative themes by importing in after Homestead UI's styles, like this:
 
 ```jsx
-import 'decentraland-ui/lib/styles.css'
-import 'decentraland-ui/lib/dark-theme.css'
+import 'homesteadio-ui/lib/styles.css'
+import 'homesteadio-ui/lib/dark-theme.css'
 ```
 
 Or you can create your own theme like this:
@@ -111,13 +93,14 @@ Or you can create your own theme like this:
 
 ## Development
 
-Install dependencies and start Storybook
+Install dependencies and start Storybook to make changes.
 
 ```
 $ npm install
 $ npm start
 ```
 
-## CI/CD
+## License
 
-We deploy automatically to [ui.decentraland.org](https://ui.decentraland.org) and release a new version via `semantic-release`
+We've continued using and make all available under Apache 2.0 License.
+
