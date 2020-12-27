@@ -104,3 +104,5 @@ $ npm start
 
 We've continued using and make all available under Apache 2.0 License.
 
+## In the spirit of good tidings
+🎵 Home, home on the chain... where the winners HODL and make gains... 
