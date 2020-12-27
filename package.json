@@ -1,7 +1,7 @@
 {
-  "name": "decentraland-ui",
+  "name": "homesteadio-ui",
   "version": "0.0.0-development",
-  "description": "Decentraland's UI components and styles",
+  "description": "Homesteadio's UI components and styles",
   "main": "lib/index.js",
   "module": "dist/index.js",
   "typings": "lib/index.d.ts",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/decentraland/ui.git"
+    "url": "https://github.com/homesteadio/ui.git"
   },
   "keywords": [
     "decentraland",
@@ -31,9 +31,9 @@
   "author": "Decentraland",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/decentraland/ui/issues"
+    "url": "https://github.com/homesteadio/ui/issues"
   },
-  "homepage": "https://github.com/decentraland/ui#readme",
+  "homepage": "https://github.com/homesteadio/ui#readme",
   "devDependencies": {
     "@storybook/addon-centered": "^5.3.13",
     "@storybook/addon-storysource": "^5.3.13",
