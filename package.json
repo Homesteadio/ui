@@ -1,5 +1,5 @@
 {
-  "name": "homesteadio/homesteadio-ui",
+  "name": "homesteadio-ui",
   "version": "0.0.0-development",
   "description": "Homesteadio's UI components and styles",
   "main": "lib/index.js",
