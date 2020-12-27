@@ -1,6 +1,6 @@
 {
   "name": "homesteadio-ui",
-  "version": "0.0.2",
+  "version": "3.0.1",
   "description": "Homesteadio's UI components and styles",
   "main": "lib/index.js",
   "module": "dist/index.js",
@@ -20,7 +20,7 @@
     "url": "https://github.com/homesteadio/ui.git"
   },
   "keywords": [
-    "decentraland",
+    "nft",
     "ui",
     "react",
     "semantic-ui",
