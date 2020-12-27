@@ -1,6 +1,6 @@
 {
   "name": "homesteadio-ui",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "description": "Homesteadio's UI components and styles",
   "main": "lib/index.js",
   "module": "dist/index.js",
